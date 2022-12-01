@@ -75,3 +75,13 @@
   align-items: center;
 }
 }
+@media screen and (width: $tablet)
+{
+.menu__card-dish-text{
+width: 85%;
+}
+.menu__card-dish:hover .menu__card-dish-text{
+  width: 78%;
+  
+}
+}

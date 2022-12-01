@@ -589,6 +589,14 @@ header h1 {
     align-items: center;
   }
 }
+@media screen and (width: 820px) {
+  .menu__card-dish-text {
+    width: 85%;
+  }
+  .menu__card-dish:hover .menu__card-dish-text {
+    width: 78%;
+  }
+}
 /*Nav Bar*/
 @-webkit-keyframes pulse {
   0% {
